@@ -1,4 +1,15 @@
 
+
+futher testings show that the parted 3.1 are not compatible with fat2resize .
+The parted fat2resize binary are NOT idententicaly with the fat2resize binary.
+
+-> parted ´s fat2resize on opensuse build dont understand  the device node creation witch has worked on older releases
+
+
+ RPMBUILD BUG report for parted 3.1 with fat2resize 1.02 :
+ Build bug release are removed function see http://fossies.org/linux/misc/parted-3.1.tar.gz/parted-3.1/ChangeLog
+
+
 <pre>
 
 bastard:/usr/lib # fatresize /transfer/openSUSE-13.1-ARM-bwiedemanni-raspberrypi.armv6hl-20131206x.img1  155M
