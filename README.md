@@ -21,6 +21,7 @@ Build dependencies required:
   - automake ( from oss distro )
   - autoconf ( from oss distro )
   - libtool ( from oss distro )
+  - buildconf  ,see below
   - shtool 2.0.8 ( https://www.gnu.org/software/shtool/shtool.html ), see below.
 
  SPEC & Build Project Info are here ; <br>
@@ -34,5 +35,6 @@ Build dependencies required:
 
  depend Build Changes :
   shtool 2.0.8    - completed 
+  buildconf v 9999 - completed
 
   
