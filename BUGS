@@ -1,8 +1,7 @@
 
-
 <pre>
 
-ad2:/usr/lib # fatresize /transfer/openSUSE-13.1-ARM-bwiedemanni-raspberrypi.armv6hl-20131206x.img1  155M
+bastard:/usr/lib # fatresize /transfer/openSUSE-13.1-ARM-bwiedemanni-raspberrypi.armv6hl-20131206x.img1  155M
 Usage: fatresize [options] device (e.g. /dev/hda1, /dev/sda2)
     Resize an FAT16/FAT32 volume non-destructively:
 
@@ -14,13 +13,14 @@ Usage: fatresize [options] device (e.g. /dev/hda1, /dev/sda2)
     -h, --help         Display this help
 
 Please report bugs to mouse@altlinux.org
-ad2:/usr/lib # fatresize /transfer/openSUSE-13.1-ARM-bwiedemanni-raspberrypi.armv6hl-20131206x.img1 -s  155M
+
+bastard :/usr/lib # fatresize /transfer/openSUSE-13.1-ARM-bwiedemanni-raspberrypi.armv6hl-20131206x.img1 -s  155M
 fatresize 1.0.2 (04/06/14)
 fatresize: symbol lookup error: fatresize: undefined symbol: ped_file_system_open
 </pre>
 
 <pre>
-d1:/proj/parted # rpmbuild -ba fat2resize-1.0.3-5.spec
+bastard :/proj/parted # rpmbuild -ba fat2resize-1.0.3-5.spec
 Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.gI0wqr
 + umask 022
 + cd /usr/src/packages/BUILD
