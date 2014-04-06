@@ -16,6 +16,8 @@ Build dependencies required:
 
   - libparted0-2.4-34.2.1.armv6hl ( from oss distro )
   - parted-devel-2.4-34.2.1.armv6hl ( from oss distro )
+  - libudev-devel  ( from oss distro )
+  - device-mapper-devel  ( from oss distro )
   - automake ( from oss distro )
   - autoconf ( from oss distro )
   - libtool ( from oss distro )
