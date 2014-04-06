@@ -21,3 +21,7 @@ Build dependencies required:
   - autoconf ( from oss distro )
   - libtool ( from oss distro )
   - shtool 2.0.8 ( https://www.gnu.org/software/shtool/shtool.html )
+
+SPEC & Build Project Info are here .
+The Build for Raspberry PI RPM & SRPM created for Opensuse 13.1 RPI arm
+are stored at Our Drop Box URL https://www.dropbox.com/sh/ofpzj8u3j2v43zq/mqoFqLLzQB 
