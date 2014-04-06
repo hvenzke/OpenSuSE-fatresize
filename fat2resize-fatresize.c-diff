@@ -1,0 +1,19 @@
+--- fatresize.c.orig    2005-09-20 08:29:08.000000000 +0000
++++ fatresize.c 2014-04-06 21:15:44.712281779 +0000
+@@ -34,7 +34,15 @@
+
+ #include "config.h"
+
+-#define FAT32MIN       1024*1024*512
++/*
++*
++* for RPI image  the 512MB FAT32MIN are incorrect.
++* Uppon the FAT32 SPEC by MS the Min Size shuold be at least 16MB
++*
++*/
++
++#define FAT32MIN        1024*1024*32
++
+
+ static struct {
+     unsigned char *dev;
