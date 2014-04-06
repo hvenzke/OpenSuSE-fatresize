@@ -27,12 +27,18 @@ Build dependencies required:
  The Build for Raspberry PI RPM & SRPM created for Opensuse 13.1 RPI arm <br>
  are stored at Our Drop Box URL https://www.dropbox.com/sh/ofpzj8u3j2v43zq/mqoFqLLzQB 
 
+ an Updated parted 3.1 SRPM release for RPI are taken from    
+ http://download.opensuse.org/ports/ppc/source/factory/repo/oss/suse/src/
+ and rebuild with fatresize support.
+
 
  Build changes :
   fatresize 1.0.2    -  completed
+  patch applied that lower the FAT2MIN to 32MB , uppon the FAT spec this are correct for SD and USB sticks.
 
 
  depend Build Changes :
   shtool 2.0.8    - completed 
+  parted 3.1      - in progress
 
   
